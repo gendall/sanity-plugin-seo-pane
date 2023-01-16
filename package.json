@@ -2,7 +2,7 @@
   "name": "sanity-plugin-seo-pane",
   "version": "1.4.1",
   "description": "Run Yoast's SEO review tools using Sanity data, inside a List View Pane.",
-  "main": "lib/SeoPane.js",
+  "main": "./index.js",
   "scripts": {
     "build": "sanipack build",
     "watch": "sanipack build --watch",
@@ -28,14 +28,14 @@
   "author": "Sanity.io <hello@sanity.io>",
   "license": "MIT",
   "dependencies": {
-    "@sanity/ui": "^0.37.2",
+    "@sanity/ui": "1.0.14",
     "jed": "^1.1.1",
     "prop-types": "15.8.1",
     "react-query": "^3.34.8",
     "yoastseo": "^1.91.1-rc.0"
   },
   "devDependencies": {
-    "@sanity/eslint-config-studio": "^2.0.0",
+    "@sanity/eslint-config-studio": "^2.0.1",
     "eslint": "8.19.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-sanity": "6.0.0",
