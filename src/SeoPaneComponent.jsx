@@ -11,7 +11,7 @@ import {resultsLabels} from './lib/resultsLabels'
 
 import ErrorStack from './ErrorStack.jsx'
 import SerpPreview from './SerpPreview.jsx'
-import Feedback from './Feedback'
+import Feedback from './Feedback.jsx'
 
 export default function SeoPaneComponent({document: sanityDocument, options}) {
   const [tab, setTab] = useState('')
